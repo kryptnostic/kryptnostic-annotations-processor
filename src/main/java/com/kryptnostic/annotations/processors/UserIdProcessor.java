@@ -17,7 +17,6 @@ import com.kryptnostic.annotations.UserId;
     value = "com.kryptnostic.annotations.UserId" )
 @SupportedSourceVersion( SourceVersion.RELEASE_7 )
 public class UserIdProcessor extends AbstractProcessor {
-
     @Override
     public boolean process( Set<? extends TypeElement> annotations, RoundEnvironment roundEnv ) {
         Set<? extends Element> elements = roundEnv.getElementsAnnotatedWith( UserId.class );
@@ -28,4 +27,5 @@ public class UserIdProcessor extends AbstractProcessor {
         return true;
     }
 
+    
 }

@@ -74,12 +74,12 @@ if( ( (branch.equals("develop") || branch.equals("master") || branch.contains("r
                     asNode().children().last() + {
                         resolveStrategy = Closure.DELEGATE_FIRST
                         name 'kryptnostic-annotations'
-                        description 'Kryptnostic Annotations'
-                        url 'https://www.github.com/kryptnostic/kodex'
+                        description 'Kryptnostic Annotations Processors'
+                        url 'https://www.github.com/kryptnostic/kryptnostic-annotations-processors'
                         scm {
-                            url 'https://www.github.com/kryptnostic/kodex'
-                            connection 'https://www.github.com/kryptnostic/kodex'
-                            developerConnection 'https://www.github.com/kryptnostic/kodex'
+                            url 'https://www.github.com/kryptnostic/kryptnostic-annotations-processors'
+                            connection 'https://www.github.com/kryptnostic/kryptnostic-annotations-processors'
+                            developerConnection 'https://www.github.com/kryptnostic/kryptnostic-annotations-processors'
                         }
                         licenses {
                             license {

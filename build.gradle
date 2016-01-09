@@ -140,7 +140,7 @@ dependencies {
     compile "commons-codec:commons-codec:${commons_codec_version}"
     if( project.hasProperty('developmentMode') && project.developmentMode ) {
         logger.quiet("$project.name is using project dependencies.")
-        project( ":kryptnostic-annotations")
+        compile project( ":kryptnostic-annotations")
     } else {
         logger.quiet("$project.name is using jar dependencies.")
         compile "com.kryptnostic:kryptnostic-annotations:${k_annotations_version}"
