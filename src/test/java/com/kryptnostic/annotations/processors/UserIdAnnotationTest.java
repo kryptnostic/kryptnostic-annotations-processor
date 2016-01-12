@@ -9,7 +9,6 @@ import com.kryptnostic.annotations.UserId;
 public class UserIdAnnotationTest {
     @Test
     public void bar() {
-        UUID f = UUID.randomUUID();
-        foo( f );
+        @UserId UUID f = UUID.randomUUID();
     }
 }

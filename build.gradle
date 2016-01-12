@@ -76,6 +76,7 @@ repositories {
 
 }
 
+ext.k_annotations_version='0.0.0-SNAPSHOT'
 ext.jackson_version='2.4.4'
 ext.slf4j_version='1.7.12'
 ext.log4j_version='2.4.1'
